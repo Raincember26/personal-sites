@@ -4,7 +4,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 2rem;
-  min-height: 100vh;
+  min-height: 90vh;
 }
 
 .description {
@@ -34,10 +34,6 @@
   border-radius: var(--border-radius);
 }
 
-.code {
-  font-weight: 700;
-  font-family: var(--font-mono);
-}
 
 .grid {
   display: grid;
@@ -258,9 +254,6 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  .vercelLogo {
-    filter: invert(1);
-  }
 
   .logo,
   .thirteen img {
@@ -275,4 +268,8 @@
   to {
     transform: rotate(0deg);
   }
+}
+
+.menu {display: flex;
+
 }
