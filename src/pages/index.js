@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import { Inter } from '@next/font/google'
+import { Inter, Poppins, Roboto } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
 import Link from 'next/link'
 
@@ -52,11 +52,10 @@ export default function Home() {
         </div>
 
         {/*Ini Isi  */}
-        <div className={styles.center}>
-
-            <h1>Hello, Galih here! feel free to see all my work here</h1>
-            
-        
+        <div className={styles.herotitle}>
+            <h1>Hello, Galih here! feel
+            <br/>
+            free to see all my work here</h1>
         </div>
 
         {/*Ini Konten link  */}
