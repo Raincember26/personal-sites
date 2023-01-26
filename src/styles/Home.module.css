@@ -34,7 +34,6 @@
   border-radius: var(--border-radius);
 }
 
-
 .grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(25%, auto));
@@ -254,6 +253,9 @@
 }
 
 @media (prefers-color-scheme: dark) {
+  .vercelLogo {
+    filter: invert(1);
+  }
 
   .logo,
   .thirteen img {
